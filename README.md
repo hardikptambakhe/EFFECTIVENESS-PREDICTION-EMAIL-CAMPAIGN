@@ -1,6 +1,7 @@
 # EFFECTIVENESS-PREDICTION-EMAIL-CAMPAIGN
 
 Introduction
+
 As Mentioned in the Resume, I have Worked on the EMAIL CAMPAIGN EFFECTIVENESS PREDICTION, as the Name Suggested this Project belongs to retail Domain.
 Our Client approached us to make a Model, to predict Most of the small to medium business owners are making effective use of Gmail-based Email marketing Strategies for offline targeting of converting their prospective customers into leads so that they stay with them in Business.
 The main objective is to create a machine learning model to characterize the mail and track
@@ -12,9 +13,10 @@ Data Gathering
 The First and the Most prominent think is to collect the data. As we know Data is necessary for the correct operation of the machine learning system, just like Oxygen is for Living Organisms.
 In our case, Basically Clint Provided as the Data through the SQL Server, and we have a team of Data Engineers who fetch the data to our server, and we use some connectors of SQL to gather the data.
 
-
+-----------------------
 
 EDA
+
 Once we got the data,    we start performing the basic Operations of machine Learning in order to analyze the State of Data. We started  the data preparation steps, which includes: EDA, Feature Engineering, Feature Selection & Extracting methods.
 Now, What EDA is? EDA Stands for Exploratory Data Analysis which is a Data Analytics process to understand the data in depth and learn the different data characteristics often with Visualization Techniques. This allows you to get a better feel of your data and find useful pattern from it.
 In our case initially when we gather the data we had around 6-7 lacks of rows, and nearly 70 features with us, but when we done with feature selection and feature engineering we had only left with around 30-35 feature, in order to send it to the machine to train the Model.
@@ -30,10 +32,11 @@ While Analysis the data we use boxplot technique to detect the outliers in the d
 After done with outliers and missing values, we come to the encoding part, where we perform Label Encoding on features having Ordinal Data, and One Hot Encoding on the features having Nominal Data.
 We had Age columns which was quite important feature, but the thing is that it contains lots of missing values and noise, so we had DOB feature from which we derived the new feature Senior Citizen considering the threshold age 60yrs.
 
-
+------------------------
 
 
 Feature Selection
+
 Now we came to the Feature Selection Part, we use different Feature Selection Techniques like Annova Test, chi-square, Test Information Gain etc. in order to find the importance of features and visualized which features are contributing more in order to predict the output. 
 We Use Principle Component Analysis to fetch the 25 best Principle Components which were contributing the most to predict the outcome.
 Model Building
@@ -46,16 +49,18 @@ Benefits are not in terms of Numbers, we have to say like
 We reduce the Human Efforts
 We Reduces the decision time, before required 10min now they able to take decision in 1 min or 2 min
 
-
+-------------------------
 
 Achievement:
+
 We Successfully achieve 6-7% cost reduction
 Benefits your client get from your project
 We Reduces the decision time
 
-
+-------------------------
 
 DROP FEATURE
+
 Mode of Contact
 Aadhar No.
 Pan no.
@@ -65,7 +70,7 @@ Address
 Name
 Customer Type
 
-
+---------------------------
 
 CONCLUSION
 
@@ -83,7 +88,7 @@ emails were sent on.
 
 ● Based on the metrics, XGBoost Classifier worked the best, giving a train score of 89% and test score of 81% for F1 score.
 
-
+--------------------------
 
 CHALLENGES
 
